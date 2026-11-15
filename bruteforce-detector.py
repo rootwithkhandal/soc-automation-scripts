@@ -172,25 +172,35 @@ def parse_authlog(path: Path) -> Iterator[AuthEvent]:
 
 
 def parse_json(path: Path) -> Iterator[AuthEvent]:
-    """Parse JSON array or JSONL authentication events."""
-    # shortcut: loads full JSON array into memory, switch to ijson if files exceed 200MB
-    content = path.read_text(encoding="utf-8", errors="replace").strip()
-    if content.startswith("["):
-        records = json.loads(content)
-    else:
-        records = []
-        for line in content.splitlines():
-            line = line.strip()
-            if line:
-                try:
-                    records.append(json.loads(line))
-                except json.JSONDecodeError:
-                    continue
-
-    for rec in records:
-        event = _normalize_record(rec)
-        if event:
-            yield event
+    """Parse JSON array or JSONL authentication events (streams JSONL line-by-line)."""
+    with open(path, "r", encoding="utf-8", errors="replace") as fh:
+        first_char = ""
+        while True:
+            ch = fh.read(1)
+            if not ch:
+                break
+            if not ch.isspace():
+                first_char = ch
+                break
+        fh.seek(0)
+        if first_char == "[":
+            # shortcut: loads full JSON array into memory, switch to ijson if files exceed 200MB
+            records = json.load(fh)
+            for rec in records:
+                event = _normalize_record(rec)
+                if event:
+                    yield event
+        else:
+            for line in fh:
+                line = line.strip()
+                if line:
+                    try:
+                        rec = json.loads(line)
+                    except json.JSONDecodeError:
+                        continue
+                    event = _normalize_record(rec)
+                    if event:
+                        yield event
 
 
 def parse_csv_log(path: Path) -> Iterator[AuthEvent]:

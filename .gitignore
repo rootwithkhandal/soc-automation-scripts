@@ -2,7 +2,8 @@
 docs/
 MEMORY.md
 Knowledge-graph.md
-tests/test_brute_force.py
+test_brute_force.py
+test_lateral_movement.py
 
 # === Python ===
 __pycache__/
