@@ -1,0 +1,15 @@
+# soc-automations requirements
+# Shared across all 7 scripts
+
+# ── CLI & display ──
+rich>=13.0
+
+# ── Windows EVTX parsing (Day 1, 2, 5) ──
+python-evtx>=0.7
+
+# ── Email parsing (Day 4) ──
+# mail-parser  # uncomment when building Day 4
+
+# ── HTTP for API enrichment (Day 3) ──
+# requests     # uncomment when building Day 3
+# ratelimit    # uncomment when building Day 3
