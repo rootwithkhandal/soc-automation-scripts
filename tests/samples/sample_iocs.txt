@@ -1,0 +1,19 @@
+# Sample Threat Indicators for SOC Triage & Testing
+# Includes benign infrastructure, known malicious C2s, and malware hashes
+
+# Benign / Known Good
+8.8.8.8
+1.1.1.1
+google.com
+
+# Known Malicious C2 & Scanner IPs (RFC 5737 doc ranges & test hashes)
+198.51.100.4
+203.0.113.50
+
+# Malicious Hashes (Emotet & WannaCry samples)
+44d88612fea8a8f36de82e1278abb02f
+24d004a104d4d54034dbcffc2a4b19a11f39008a575aa614ea04703480b1022c
+
+# Malicious / Suspicious Domains & URLs
+evil-c2-tracker.com
+http://malicious-delivery.example/payload.exe

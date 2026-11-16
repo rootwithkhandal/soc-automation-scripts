@@ -4,6 +4,7 @@ MEMORY.md
 Knowledge-graph.md
 test_brute_force.py
 test_lateral_movement.py
+test_ioc_enricher.py
 
 # === Python ===
 __pycache__/
