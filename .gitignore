@@ -9,6 +9,8 @@ test_phishing_triage.py
 test_process_anomaly.py
 test_alert_dedup.py
 test_playbook_runner.py
+test_process_anomaly.py
+
 # === Python ===
 __pycache__/
 *.py[cod]

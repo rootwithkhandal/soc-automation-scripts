@@ -230,10 +230,13 @@ def deduplicate_alerts(
 
         # Build group key
         key_parts = [rule_norm, host_norm, ioc_norm]
-        if "user" in force_fields:
-            key_parts.append(a.user.lower().strip())
-        if "severity" in force_fields:
-            key_parts.append(a.severity)
+        for ff in sorted(force_fields):
+            if ff == "user":
+                key_parts.append(a.user.lower().strip())
+            elif ff == "severity":
+                key_parts.append(a.severity)
+            elif ff in a.raw and a.raw[ff] is not None:
+                key_parts.append(str(a.raw[ff]).lower().strip())
         group_key = tuple(key_parts)
 
         # Inversion safeguard: if preserve_critical is enabled, critical alerts are never collapsed
