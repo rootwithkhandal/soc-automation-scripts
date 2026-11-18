@@ -1,0 +1,8 @@
+{
+  "dc01.corp.local": "critical",
+  "payment-gateway.prod": "critical",
+  "sql-cluster-01": "high",
+  "web-dmz-01": "medium",
+  "ws-finance-42": "high",
+  "ws-laptop-105": "low"
+}

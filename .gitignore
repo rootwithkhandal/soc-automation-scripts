@@ -7,7 +7,8 @@ test_lateral_movement.py
 test_ioc_enricher.py
 test_phishing_triage.py
 test_process_anomaly.py
-
+test_alert_dedup.py
+test_playbook_runner.py
 # === Python ===
 __pycache__/
 *.py[cod]

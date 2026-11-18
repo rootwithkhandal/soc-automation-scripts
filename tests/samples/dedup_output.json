@@ -1,0 +1,120 @@
+{
+  "tool": "alert-dedup-engine",
+  "version": "1.0.0",
+  "generated_at": "2026-11-18T16:28:17.329547+00:00",
+  "summary": {
+    "total_alerts": 135,
+    "incidents": 4,
+    "reduction_percent": 97.0,
+    "window_minutes": 30
+  },
+  "incidents": [
+    {
+      "incident_id": "INC-0001",
+      "rule_name": "Suspicious Authentication Failure Spike",
+      "host": "dc01.corp.local",
+      "ioc": "198.51.100.205",
+      "users": [
+        "svc_admin",
+        "administrator"
+      ],
+      "severity": "critical",
+      "original_severity": "medium",
+      "asset_criticality": "critical",
+      "count": 50,
+      "first_seen": "2026-11-18T10:00:00+00:00",
+      "last_seen": "2026-11-18T10:14:42+00:00",
+      "duration_seconds": 882,
+      "notes": [
+        "Severity promoted to CRITICAL: Target asset 'dc01.corp.local' is classified as CRITICAL infrastructure."
+      ],
+      "sample_raw": {
+        "_time": "2026-11-18 10:00:00",
+        "search_name": "Suspicious Authentication Failure Spike",
+        "dest": "dc01.corp.local",
+        "src_ip": "198.51.100.205",
+        "user": "svc_admin",
+        "alert_severity": "medium"
+      }
+    },
+    {
+      "incident_id": "INC-0004",
+      "rule_name": "Suspicious Authentication Failure Spike",
+      "host": "dc01.corp.local",
+      "ioc": "198.51.100.205",
+      "users": [
+        "administrator"
+      ],
+      "severity": "critical",
+      "original_severity": "medium",
+      "asset_criticality": "critical",
+      "count": 10,
+      "first_seen": "2026-11-18T12:00:00+00:00",
+      "last_seen": "2026-11-18T12:04:30+00:00",
+      "duration_seconds": 270,
+      "notes": [
+        "Severity promoted to CRITICAL: Target asset 'dc01.corp.local' is classified as CRITICAL infrastructure."
+      ],
+      "sample_raw": {
+        "timestamp": "2026-11-18T12:00:00+00:00",
+        "rule_name": "Suspicious Authentication Failure Spike",
+        "host": "dc01.corp.local",
+        "ioc": "198.51.100.205",
+        "user": "administrator",
+        "severity": "medium"
+      }
+    },
+    {
+      "incident_id": "INC-0003",
+      "rule_name": "Network Beaconing to Untrusted Domain",
+      "host": "payment-gateway.prod",
+      "ioc": "203.0.113.88",
+      "users": [
+        "SYSTEM"
+      ],
+      "severity": "high",
+      "original_severity": "high",
+      "asset_criticality": "critical",
+      "count": 35,
+      "first_seen": "2026-11-18T10:05:00+00:00",
+      "last_seen": "2026-11-18T10:16:20+00:00",
+      "duration_seconds": 680,
+      "notes": [],
+      "sample_raw": {
+        "@timestamp": "2026-11-18T10:05:00+00:00",
+        "signal.rule.name": "Network Beaconing to Untrusted Domain",
+        "host.name": "payment-gateway.prod",
+        "source.ip": "203.0.113.88",
+        "user.name": "SYSTEM",
+        "signal.severity": "high"
+      }
+    },
+    {
+      "incident_id": "INC-0002",
+      "rule_name": "Port Scan Detected",
+      "host": "ws-laptop-105",
+      "ioc": "192.168.1.55",
+      "users": [
+        "\u2014"
+      ],
+      "severity": "low",
+      "original_severity": "low",
+      "asset_criticality": "low",
+      "count": 40,
+      "first_seen": "2026-11-18T10:02:00+00:00",
+      "last_seen": "2026-11-18T10:11:45+00:00",
+      "duration_seconds": 585,
+      "notes": [
+        "Target asset 'ws-laptop-105' is tagged as LOW priority/test environment."
+      ],
+      "sample_raw": {
+        "timestamp": "2026-11-18T10:02:00+00:00",
+        "rule_name": "Port Scan Detected",
+        "host": "ws-laptop-105",
+        "ioc": "192.168.1.55",
+        "user": "\u2014",
+        "severity": "low"
+      }
+    }
+  ]
+}

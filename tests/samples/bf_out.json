@@ -1,0 +1,52 @@
+{
+  "tool": "brute_force_detector",
+  "version": "1.0.0",
+  "generated_at": "2026-11-18T22:02:27.678874",
+  "summary": {
+    "total_events": 223,
+    "total_failures": 96,
+    "detections": 2
+  },
+  "detections": [
+    {
+      "detection_type": "brute_force",
+      "source_ip": "203.0.113.50",
+      "target_accounts": [
+        "admin"
+      ],
+      "failure_count": 25,
+      "unique_accounts": 1,
+      "window_start": "2026-11-14T10:15:00",
+      "window_end": "2026-11-14T10:17:48",
+      "severity": "high",
+      "details": "25 failures in 5min"
+    },
+    {
+      "detection_type": "credential_stuffing",
+      "source_ip": "198.51.100.77",
+      "target_accounts": [
+        "user000",
+        "user001",
+        "user002",
+        "user003",
+        "user004",
+        "user005",
+        "user006",
+        "user007",
+        "user008",
+        "user009",
+        "user010",
+        "user011",
+        "user012",
+        "user013",
+        "user014"
+      ],
+      "failure_count": 15,
+      "unique_accounts": 15,
+      "window_start": "2026-11-14T12:30:00",
+      "window_end": "2026-11-14T12:33:44",
+      "severity": "high",
+      "details": "15 distinct accounts in 5min"
+    }
+  ]
+}
