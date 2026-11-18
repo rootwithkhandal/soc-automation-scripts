@@ -1,0 +1,31 @@
+From: IT Security Support <security-noreply@trusted-corp.com>
+Reply-To: credential-collector@attacker-portal.xyz
+To: Alice Employee <alice@trusted-corp.com>
+Subject: URGENT: Mandatory Password Reset Required Immediately
+Date: Wed, 18 Nov 2026 14:30:00 +0000
+Authentication-Results: mx.trusted-corp.com; spf=fail; dkim=fail; dmarc=fail
+Received-SPF: Fail (mail.trusted-corp.com: domain of attacker-portal.xyz does not designate permitted sender)
+Message-ID: <attack.20261118@attacker-portal.xyz>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_Boundary_12345"
+
+------=_Boundary_12345
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+<body>
+<p>Dear Corporate User,</p>
+<p>Your corporate password will expire in 2 hours. Immediate action required.</p>
+<p>Click here to retain access: <a href="http://198.51.100.77/verify">https://trusted-corp.com/reset-password</a></p>
+<p>Alternatively, inspect the attached security guidance document.</p>
+<p>IT Helpdesk</p>
+</body>
+</html>
+------=_Boundary_12345
+Content-Type: application/octet-stream; name="Corporate_Policy_Update.pdf.exe"
+Content-Disposition: attachment; filename="Corporate_Policy_Update.pdf.exe"
+Content-Transfer-Encoding: base64
+
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAA
+------=_Boundary_12345--

@@ -5,6 +5,8 @@ Knowledge-graph.md
 test_brute_force.py
 test_lateral_movement.py
 test_ioc_enricher.py
+test_phishing_triage.py
+
 
 # === Python ===
 __pycache__/

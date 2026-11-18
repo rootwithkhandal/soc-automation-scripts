@@ -18,6 +18,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import concurrent.futures
 import json
 import os
 import re
@@ -420,31 +421,26 @@ def enrich_ioc(
 
     sources = {}
 
-    # Query public URLhaus (no key required)
-    uh_data = query_urlhaus(ioc, ioc_type)
-    if uh_data:
-        sources["URLhaus"] = uh_data
+    tasks = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        tasks[executor.submit(query_urlhaus, ioc, ioc_type)] = "URLhaus"
+        if keys.get("vt"):
+            tasks[executor.submit(query_virustotal, ioc, ioc_type, keys["vt"])] = "VirusTotal"
+        if keys.get("abuse") and ioc_type == "ip":
+            tasks[executor.submit(query_abuseipdb, ioc, ioc_type, keys["abuse"])] = "AbuseIPDB"
+        if keys.get("greynoise") and ioc_type == "ip":
+            tasks[executor.submit(query_greynoise, ioc, ioc_type, keys["greynoise"])] = "GreyNoise"
+        if keys.get("otx"):
+            tasks[executor.submit(query_otx, ioc, ioc_type, keys["otx"])] = "AlienVault_OTX"
 
-    # Query key-authenticated sources if tokens exist
-    if keys.get("vt"):
-        vt_data = query_virustotal(ioc, ioc_type, keys["vt"])
-        if vt_data:
-            sources["VirusTotal"] = vt_data
-
-    if keys.get("abuse") and ioc_type == "ip":
-        abuse_data = query_abuseipdb(ioc, ioc_type, keys["abuse"])
-        if abuse_data:
-            sources["AbuseIPDB"] = abuse_data
-
-    if keys.get("greynoise") and ioc_type == "ip":
-        gn_data = query_greynoise(ioc, ioc_type, keys["greynoise"])
-        if gn_data:
-            sources["GreyNoise"] = gn_data
-
-    if keys.get("otx"):
-        otx_data = query_otx(ioc, ioc_type, keys["otx"])
-        if otx_data:
-            sources["AlienVault_OTX"] = otx_data
+        for future in concurrent.futures.as_completed(tasks):
+            src_name = tasks[future]
+            try:
+                data = future.result()
+                if data:
+                    sources[src_name] = data
+            except Exception:
+                pass
 
     score, verdict, tags = calculate_risk_score(ioc_type, sources)
 
